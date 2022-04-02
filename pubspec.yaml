@@ -1,0 +1,115 @@
+name: tapme
+description: TAP
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  bloc: ^7.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.3.1
+  shared_preferences: ^2.0.13
+  dartz: ^0.10.1
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.17.0
+
+
+  # custom bottom sheet
+  modal_bottom_sheet: ^2.0.0
+
+  # позволяет производить вычисления с десятичными числами без потери точности, как при двойных операциях.
+  decimal: ^2.1.0
+
+  # Можно выборать контактов операционной системы с помощью Flutter
+  fluttercontactpicker: ^4.6.0
+
+  # Библиотека для синтаксического анализа тегов ID3
+  dart_tags: ^0.4.0
+
+  # плагин для использование местоположений в файловой системе
+  path_provider: ^2.0.9
+
+  # плагин для запуска URL-адреса
+  url_launcher: ^6.0.20
+
+  # Плагин геолокации, который обеспечивает легкий доступ к службам определения местоположения
+  geolocator: ^7.6.2
+
+  # API для запроса разрешений и проверки их статуса (iOS, Android)
+  permission_handler: ^8.3.0
+
+  # информацию об устройстве из приложения
+  device_info_plus: ^3.2.1
+
+  # This Flutter plugin provides an API for querying information about an application package.
+  package_info_plus: ^1.3.0
+
+  # Плагин для безопасного хранения строк
+  flutter_keychain: ^2.1.0
+
+  # импортируем core
+  flutter_core:
+    path: 'flutter_core-0.1.7'
+
+  # используется для сравнение объектов
+  equatable: ^2.0.3
+
+  # simple Service Locator
+  get_it: ^7.2.0
+
+  # предоставляет  широкий выбор кастомных анимированных виджетов
+  animations: ^2.0.2
+
+dev_dependencies:
+  bloc_test: ^8.2.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.1.0
+  very_good_analysis: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/images/
+    - assets/fonts/
+    - assets/fonts/SFUI/
+    - assets/fonts/Gilroy/
+
+  fonts:
+    - family: SFUIDisplay
+      fonts:
+        - asset: assets/fonts/SFUI/SFUIDisplay-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/SFUI/SFUIDisplay-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/SFUI/SFUIDisplay-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/SFUI/SFUIDisplay-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/SFUI/SFUIText-Light.ttf
+          weight: 300
+        - asset: assets/fonts/SFUI/SFUIText-Light.ttf
+          weight: 200
+
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy/Gilroy-Bold.ttf
+          weight: 900
+        - asset: assets/fonts/Gilroy/Gilroy-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Gilroy/Gilroy-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Gilroy/Gilroy-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Gilroy/Gilroy-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Gilroy/Gilroy-Light.ttf
+          weight: 200
