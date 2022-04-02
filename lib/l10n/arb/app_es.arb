@@ -1,7 +1,19 @@
 {
-    "@@locale": "es",
-    "counterAppBarTitle": "Contador",
-    "@counterAppBarTitle": {
-        "description": "Texto mostrado en la AppBar de la página del contador"
-    }
+  "@@locale": "es",
+  "counterAppBarTitle": "Counter",
+  "@counterAppBarTitle": {
+    "description": "Text shown in the AppBar of the Counter Page"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "Balance"
+  },
+  "continueText": "continueText",
+  "@continueText": {
+    "description": "continueText"
+  },
+  "ok": "continueText",
+  "@ok": {
+    "description": "continueText"
+  }
 }

@@ -1,0 +1,19 @@
+{
+  "@@locale": "ru",
+  "counterAppBarTitle": "Counter",
+  "@counterAppBarTitle": {
+    "description": "Text shown in the AppBar of the Counter Page"
+  },
+  "balance": "Balance",
+  "@balance": {
+    "description": "Balance"
+  },
+  "continueText": "continueText",
+  "@continueText": {
+    "description": "continueText"
+  },
+  "ok": "continueText",
+  "@ok": {
+    "description": "continueText"
+  }
+}
