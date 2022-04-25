@@ -6,12 +6,11 @@ class KeyboardDismisser extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
-    /*return GestureDetector(
+    return GestureDetector(
       onTap: () {
         FocusScope.of(context).requestFocus(FocusNode());
       },
       child: child,
-    );*/
+    );
   }
 }

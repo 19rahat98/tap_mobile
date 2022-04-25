@@ -6,8 +6,8 @@
 // https://opensource.org/licenses/MIT.
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tap_mobile/app/app.dart';
-import 'package:tap_mobile/counter/counter.dart';
+import 'package:tapme/core/app/app.dart';
+import 'package:tapme/features/counter/counter.dart';
 
 void main() {
   group('App', () {

@@ -4,7 +4,7 @@
   "@counterAppBarTitle": {
     "description": "Text shown in the AppBar of the Counter Page"
   },
-  "balance": "Balance",
+  "balance": "BalanceRU",
   "@balance": {
     "description": "Balance"
   },

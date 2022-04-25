@@ -1,10 +1,7 @@
 /// содержит все ключи для глобальных преференсов
 class GlobalPrefConstant {
   /// launcher (первичный запуск и действия пользователя)
-  static const prefIsBeforeOpenApplication = "prefIsBeforeOpenApplication";
   static const isBeforeViewOnboarding = "isBeforeViewOnboarding";
-  // static const isBeforeRegisterUser = "isBeforeRegisterUser";
-  // static const isBeforeCreateCard = "isBeforeCreateCard";
 
   /// настройки
   static const prefLocalization = 'prefLocalization';
